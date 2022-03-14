@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="800.0" style="-fx-background-color: #FFF57E;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main_scanController">
+
+   <children>
+      <Label layoutX="121.0" layoutY="25.0" prefHeight="48.0" prefWidth="212.0" style="-fx-border-color: black; -fx-border-radius: 33; -fx-border-width: 2; -fx-background-radius: 33; -fx-background-color: white;" text="  Le Petit Prince" textAlignment="CENTER" AnchorPane.leftAnchor="121.0" AnchorPane.rightAnchor="467.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Palatino Linotype Bold" size="24.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </Label>
+      <HBox layoutX="499.0" layoutY="34.0" prefHeight="30.0" prefWidth="180.0" spacing="20.0" AnchorPane.rightAnchor="121.0">
+         <children>
+            <Button fx:id="menu" mnemonicParsing="false" prefHeight="30.0" prefWidth="47.0" style="-fx-border-color: black; -fx-border-radius: 33; -fx-background-radius: 33; -fx-background-color: white;" text="меню">
+               <font>
+                  <Font name="SansSerif Regular" size="10.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="bron" mnemonicParsing="false" prefHeight="30.0" prefWidth="47.0" style="-fx-background-color: white; -fx-background-radius: 33; -fx-border-color: black; -fx-border-radius: 33;" text="бронь">
+               <font>
+                  <Font name="SansSerif Regular" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="zakaz" mnemonicParsing="false" onAction="#initialize" prefHeight="30.0" prefWidth="47.0" style="-fx-background-color: white; -fx-border-color: black; -fx-background-radius: 33; -fx-border-radius: 33;" text="заказ">
+               <font>
+                  <Font name="SansSerif Regular" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <ImageView fitHeight="319.0" fitWidth="325.0" layoutX="67.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="67.0">
+         <image>
+            <Image url="@4.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="444.0" layoutY="101.0" prefHeight="287.0" prefWidth="290.0" spacing="15.0" style="-fx-border-color: black; -fx-background-color: white; -fx-background-radius: 33; -fx-border-radius: 33;" AnchorPane.rightAnchor="66.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="282.0" text="Кондитерская &quot;Le Petit Prince&quot; " textAlignment="JUSTIFY">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="282.0" text="ждет Вас в гости по адресу:">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="60.0" prefHeight="18.0" prefWidth="282.0" text="г.Санкт-Петербург, Невский проспект 8">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="140.0" text="Теплая атмосфера.  " textAlignment="CENTER">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="19.0" prefWidth="140.0" text="Уют." textAlignment="CENTER">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="140.0" text="Красивая музыка.">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="16.0" prefWidth="140.0" text="Ароматный кофе.">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="140.0" text="И любимые десерты.">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

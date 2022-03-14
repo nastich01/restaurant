@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="460.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.admin_menuController">
+    <children>
+          <TabPane fx:id="tabPane" prefHeight="460.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                  <Tab fx:id="dishtab" onSelectionChanged="#initialize" text="Товары">
+                      <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                      </content>
+                  </Tab>
+                  <Tab fx:id="zakaztab" onSelectionChanged="#initializeZakaz" text="Заказы">
+                      <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                      </content>
+                  </Tab>
+            <Tab fx:id="tabletab" onSelectionChanged="#initializeBron" text="Бронь">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+            <Tab fx:id="tabletab1" onSelectionChanged="#initializeTable" text="Столы ">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+              </tabs>
+          </TabPane>
+    </children>
+</AnchorPane>

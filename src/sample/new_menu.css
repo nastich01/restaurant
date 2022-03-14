@@ -1,0 +1,37 @@
+.table-view .column-header-background {
+    -fx-background-color:  #FFF57E;
+    -fx-border-radius: 90;
+    -fx-background-radius: 33;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color:  #FFF57E;
+    -fx-border-radius: 33;
+    -fx-background-radius: 33;
+}
+
+.table-view .column-header .label {
+    -fx-background-color:  #FFF57E;
+    -fx-border-radius: 33;
+    -fx-background-radius: 33;
+}
+.table-view{
+    -fx-border-color: black;
+    -fx-background-radius: 33;
+    -fx-border-radius: 33;
+}
+.table-view.content{
+    -fx-background-color:  #FFF57E;
+}
+.table-view.column {
+    -fx-background-color:  #FFF57E;
+    -fx-border-radius: 33;
+    -fx-background-radius: 33;
+}
+.text-area{
+    -fx-wrap-text: true;
+    -fx-border-color: #FFF57E;
+}
+.text-area .content{
+    -fx-background-color:  #FFF57E;
+}
